@@ -1,0 +1,88 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} \usepackage{moderncvcompatibility} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Prakhar Verma} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{ +(91) 93696 72976 \\ Kanpur, UP} 
+\address {\href{mailto:contact.prakhar29@gmail.com}{contact.prakhar29@gmail.com} \\ \href{https://linkedin.com/in/pv2908/}{LinkedIn} \\ \href{https://github.com/OragnisedChaos}{GitHub}  }  %
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{OBJECTIVE}
+
+{Enthusiastic web developer seeking to contribute and stay at the forefront of emerging technologies.}
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Masters of Computer Application  ,   CGPA : 8.33}  \hfill {Expected 2024}\\
+National Institute Of Technology , Jamshedpur
+
+{\bf Bachelor of Computer Application} \hfill {2017 - 2020}\\
+Jagan Institute of Management
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Technical Skills & Data Structure and Algoritms, NodeJs, Express , Bootstrape , Bulma ,HTML , CSS
+\\
+Soft Skills & Presentation, Communication , Teamwork , Leadership\\
+Programming Languages & C++, Java, JavaScript, Python\\
+Core Subjects & Computer Networks , Object Oriented Programming , Operating System ,DBMS \\
+Databases & MongoDB , SQL
+
+\end{tabular}\\
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS}
+\vspace{-1.25em}
+\item \textbf{Yelp-Camp :} {Completed Yelp Camp, a full-stack campground review and listing website, showcasing web development skills in user interaction, database management, and responsive design.Implemented user authentication, database management, and interactive features.Demonstrated proficiency in HTML, CSS, JavaScript, MongoDB, and RESTful routing. \href{https://github.com/OragnisedChaos/Yelp-Camp}{(Try it here)}}
+\item \textbf{FarmKart :} {An farming inventory manager with basic CRUD operation !! \href{https://github.com/OragnisedChaos/FarmKart}{(Try it here)}}
+\end{rSection}
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Extra-Curricular Activities} 
+\begin{itemize}
+    \item Active member of the \textbf{Public Relations Team at NSS, NIT Jamshedpur}, driving community engagement and promoting impactful social causes.
+    \item	Active member of the \textbf{Anti-ragging Committee at NIT Jamshedpur}, driving campus safety through awareness campaigns, incident resolution, and fostering a respectful environment.
+    \item Engaged member of the Committee against Sexual Harassment at NIT Jamshedpur, driving a safe and inclusive campus through awareness, support, and advocacy for a respectful environment.
+    \item As PG Representative in the \textbf{ \href{https://www.linkedin.com/in/scnitjsr/} {Students' Council } at NIT Jamshedpur}, showcased strong leadership by advocating for postgraduate students, organizing impactful events, and fostering an inclusive academic and social environment.
+\end{itemize}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Achievements} 
+\begin{itemize}
+    \item \textbf{GeeksforGeeks : } 1000+ points, showcasing proficiency in programming concepts and algorithms. \href{https://auth.geeksforgeeks.org/user/prakitz2908/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user} {Link}
+    \item \textbf{LeetCode : } 150+ questions solved, showcasing strong problem-solving skills and algorithmic proficiency. \href{https://leetcode.com/prakhar2908/}{Link}
+\end{itemize}
+
+
+\end{rSection}
+
+\end{document}
