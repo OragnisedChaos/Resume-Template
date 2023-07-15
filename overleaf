@@ -8,7 +8,7 @@
 \address{ +(91) 93696 72976 \\ Kanpur, UP} 
 \address {\href{mailto:contact.prakhar29@gmail.com}{contact.prakhar29@gmail.com} \\ \href{https://linkedin.com/in/pv2908/}{LinkedIn} \\ \href{https://github.com/OragnisedChaos}{GitHub}  }  %
 
-\begin{document}    
+\begin{document}
 
 %----------------------------------------------------------------------------------------
 %	OBJECTIVE
@@ -64,6 +64,15 @@ Databases & MongoDB , SQL
 \item \textbf{FarmKart :} {An farming inventory manager with basic CRUD operation !! \href{https://github.com/OragnisedChaos/FarmKart}{(Try it here)}}
 \end{rSection}
 %----------------------------------------------------------------------------------------
+\begin{rSection}{Certifications} 
+\begin{itemize}
+    \item \textbf{The Web Developement Bootcamp 2023- Udemy  } July-13-2023 \href{https://www.udemy.com/certificate/UC-18e504d1-1382-46ec-9a74-72d1b1e8d600/} { Credentials Link}
+    \item \textbf{ Python Programming - Ritusha Consultants Pvt. Limited } March-27-2020 \href{https://drive.google.com/file/d/1nQgXMPmM5qFPW3vJFsMggDH2OF-zB9XN/view}{Credentials Link}
+\end{itemize}
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
 \begin{rSection}{Extra-Curricular Activities} 
 \begin{itemize}
     \item Active member of the \textbf{Public Relations Team at NSS, NIT Jamshedpur}, driving community engagement and promoting impactful social causes.
@@ -79,7 +88,7 @@ Databases & MongoDB , SQL
 \begin{rSection}{Achievements} 
 \begin{itemize}
     \item \textbf{GeeksforGeeks : } 1000+ points, showcasing proficiency in programming concepts and algorithms. \href{https://auth.geeksforgeeks.org/user/prakitz2908/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user} {Link}
-    \item \textbf{LeetCode : } 150+ questions solved, showcasing strong problem-solving skills and algorithmic proficiency. \href{https://leetcode.com/prakhar2908/}{Link}
+    \item \textbf{LeetCode : } 200+ questions solved, showcasing strong problem-solving skills and algorithmic proficiency. \href{https://leetcode.com/prakhar2908/}{Link}
 \end{itemize}
 
 
