@@ -1,97 +1,221 @@
-\documentclass{resume} % Use the custom resume.cls style
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} \usepackage{moderncvcompatibility} % Document margins
-\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
-\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\name{Prakhar Verma} % Your name
-% You can merge both of these into a single line, if you do not have a website.
-\address{ +(91) 93696 72976 \\ Kanpur, UP} 
-\address {\href{mailto:contact.prakhar29@gmail.com}{contact.prakhar29@gmail.com} \\ \href{https://linkedin.com/in/pv2908/}{LinkedIn} \\ \href{https://github.com/OragnisedChaos}{GitHub}  }  %
 
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
 \begin{document}
 
-%----------------------------------------------------------------------------------------
-%	OBJECTIVE
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{OBJECTIVE}
-
-{Enthusiastic web developer seeking to contribute and stay at the forefront of emerging technologies.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\end{rSection}
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{Prakhar Verma}{ \urlstyle{same} +91-9369672976 | \href{mailto:contact.prakhar29@gmail.com}{contact.prakhar29@gmail.com}
+}
 
-\begin{rSection}{Education}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-{\bf Masters of Computer Application  ,   CGPA : 8.33}  \hfill {Expected 2024}\\
-National Institute Of Technology , Jamshedpur
+\begin{minipage}[t]{0.33\textwidth} 
 
-{\bf Bachelor of Computer Application} \hfill {2017 - 2020}\\
-Jagan Institute of Management
-%Minor in Linguistics \smallskip \\
-%Member of Eta Kappa Nu \\
-%Member of Upsilon Pi Epsilon \\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\section{Education} 
 
-\end{rSection}
+\subsection{NIT  Jamshedpur}
+\descript{Master of Computer Applications | CGPA ( 8.27 ) }
+\location{2021 - 2024 | Jamshedpur}
+\sectionsep
 
-%----------------------------------------------------------------------------------------
-% TECHINICAL STRENGTHS	
-%----------------------------------------------------------------------------------------
-\begin{rSection}{SKILLS}
+\subsection{Jagran College}
+\descript{Bachelor of Computer
+Applications | - 69 \%\ }
+\location{2018 - 2021 | Kanpur}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Technical Skills & Data Structure and Algoritms, NodeJs, Express , Bootstrape , Bulma ,HTML , CSS
+\section{Skills}
+\vspace{4}
+\subsection{Programming Languages}
+
+\textbullet{} \bf C++   \\ \textbullet{} \bf Python \\ \textbullet{} \bf SQL \\ \textbullet{} \bf Java 
+\vspace{11}
+\subsection{Technologies}
+\textbullet{} \bf HTML \\ \textbullet{}  \bf CSS \\ 
+\textbullet{} \bf Javascript \\ 
+\textbullet{} \bf ExpressJs   \\ \textbullet{} \bf NodeJs \\ \textbullet{} \bf MongoDB \\ 
+\textbullet{} \bf MySql\\ 
+
+\vspace{11}
+\subsection{Coursework}
+\textbullet{} \bf Operating Systems \\
+\textbullet{} \bf Object Oriented Programming \\
+\textbullet{} \bf Data Structures and Algorithms \\
+\textbullet{} \bf Database Management System
+\textbullet{} \bf Computer Networks
+
+\vspace{11}
+\subsection{Core Competency}
+ \textbullet{} Communication \\ \textbullet{} Leadership \\ \textbullet{} Team Work \\ \textbullet{} Presentation 
+\vspace{5}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+\subsection{Profiles}
+\textbullet{} LinkedIn: \href{https://www.linkedin.com/in/pv2908/}{\location{Prakhar Verma}} \\
+\textbullet{}Github: \href{https://github.com/OragnisedChaos}{\location{OrganisedChaos}} \\
+
+\textbullet{}LeetCode:  \href{https://leetcode.com/prakhar2908/}{\location{Prakhar2908}}
+\textbullet{}GeeksForGeeks:  \href{https://auth.geeksforgeeks.org/user/prakitz2908/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user}{\location{prakitz2908}}
 \\
-Soft Skills & Presentation, Communication , Teamwork , Leadership\\
-Programming Languages & C++, Java, JavaScript, Python\\
-Core Subjects & Computer Networks , Object Oriented Programming , Operating System ,DBMS \\
-Databases & MongoDB , SQL
-
-\end{tabular}\\
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{PROJECTS}
-\vspace{-1.25em}
-\item \textbf{Yelp-Camp :} {Completed Yelp Camp, a full-stack campground review and listing website, showcasing web development skills in user interaction, database management, and responsive design.Implemented user authentication, database management, and interactive features.Demonstrated proficiency in HTML, CSS, JavaScript, MongoDB, and RESTful routing. \href{https://github.com/OragnisedChaos/Yelp-Camp}{(Try it here)}}
-\item \textbf{FarmKart :} {An farming inventory manager with basic CRUD operation !! \href{https://github.com/OragnisedChaos/FarmKart}{(Try it here)}}
-\end{rSection}
-%----------------------------------------------------------------------------------------
-\begin{rSection}{Certifications} 
-\begin{itemize}
-    \item \textbf{The Web Developement Bootcamp 2023- Udemy  } July-13-2023 \href{https://www.udemy.com/certificate/UC-18e504d1-1382-46ec-9a74-72d1b1e8d600/} { Credentials Link}
-    \item \textbf{ Python Programming - Ritusha Consultants Pvt. Limited } March-27-2020 \href{https://drive.google.com/file/d/1nQgXMPmM5qFPW3vJFsMggDH2OF-zB9XN/view}{Credentials Link}
-\end{itemize}
+\vspace{5}
+\section{Certifications} 
+\textbullet{}Udemy:\href{https://www.udemy.com/certificate/UC-18e504d1-1382-46ec-9a74-72d1b1e8d600/}{\location{Web Development Bootcamp}}
+\textbullet{}Ritusha Consultants:\href{https://drive.google.com/file/d/1nQgXMPmM5qFPW3vJFsMggDH2OF-zB9XN/view}{\location{Python Programming}}
+\textbullet{}HackerRank:\href{https://www.hackerrank.com/certificates/b6fb73d9a715}{\location{SQL}}
 
 
-\end{rSection}
-%----------------------------------------------------------------------------------------
-\begin{rSection}{Extra-Curricular Activities} 
-\begin{itemize}
-    \item Active member of the \textbf{Public Relations Team at NSS, NIT Jamshedpur}, driving community engagement and promoting impactful social causes.
-    \item	Active member of the \textbf{Anti-ragging Committee at NIT Jamshedpur}, driving campus safety through awareness campaigns, incident resolution, and fostering a respectful environment.
-    \item Engaged member of the Committee against Sexual Harassment at NIT Jamshedpur, driving a safe and inclusive campus through awareness, support, and advocacy for a respectful environment.
-    \item As PG Representative in the \textbf{ \href{https://www.linkedin.com/in/scnitjsr/} {Students' Council } at NIT Jamshedpur}, showcased strong leadership by advocating for postgraduate students, organizing impactful events, and fostering an inclusive academic and social environment.
-\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experience}
+\vspace{1}
+\runsubsection{{Intern - Fristine Infotech Pvt Ltd.}} 
+\descript{| Jan 2024 - Present }
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+\vspace{\topsep}
+\begin{tightemize}
+\item Hands-on experience in Deluge scripting for Zoho Creator, CRM, Desk, and People, optimizing workflows and customization for practical and efficient solutions.
+\item Applied hands-on experience in HTML, CSS, and JavaScript to design and implement user-friendly widgets, ensuring a seamless and responsive user experience in Zoho applications.
+\item Demonstrated hands-on expertise in integrating third-party apps and APIs into the Zoho suite. Utilized hands-on experience with Node.js and MongoDB to create efficient extensions, contributing to improved system functionality. 
+\end{tightemize}    
+\sectionsep
+
+\section{Project Work}
+\runsubsection{\href{https://github.com/ORAGNISEDCHAOS/YELP-CAMP}{Yelp-Camp}}
+\descript{| HTML , CSS , Javascript , Nodejs}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Transformed Yelp Camp with 400+ handpicked campgrounds, redefining it as the ultimate resource for outdoor enthusiasts. Expertly curated sites offer unique experiences, elevating the platform for seamless exploration.
+\item Enhanced system performance and user experience by optimizing databases with advanced techniques, reducing query response time. Implemented efficient solutions for improved functionality and streamlined user interactions.
+\end{tightemize}  
+\sectionsep
+\runsubsection{\href{https://github.com/OragnisedChaos/backend-project}{Youtube Backend replica}}
+\descript{| JS , NodeJs , ExpressJs , MongoDB }
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Developed a scalable YouTube backend using Node.js, Express, and MongoDB, integrating Cloudinary for efficient media asset management.
+\item Designed RESTful APIs, ensuring seamless communication, and implemented robust security measures for user authentication and authorization.
+\item Executed performance optimization techniques, conducted thorough testing and debugging, and emphasized documentation for future maintenance and collaboration.
+\end{tightemize} 
+\sectionsep
 
 
-\end{rSection}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%----------------------------------------------------------------------------------------
-\begin{rSection}{Achievements} 
-\begin{itemize}
-    \item \textbf{GeeksforGeeks : } 1000+ points, showcasing proficiency in programming concepts and algorithms. \href{https://auth.geeksforgeeks.org/user/prakitz2908/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user} {Link}
-    \item \textbf{LeetCode : } 200+ questions solved, showcasing strong problem-solving skills and algorithmic proficiency. \href{https://leetcode.com/prakhar2908/}{Link}
-\end{itemize}
+\section{LeaderShip}
+\vspace{1}
+\runsubsection{PG \&\ R Representative  }
+\descript{| Students' Council }
+\location{2022 – 2024 | NIT Jamshedpur}
 
+\begin{tightemize} 
+\item Served as the PG & R Representative in NIT Jamshedpur’s Students’ Council, demonstrating robust leadership through student advocacy, event organization, and promotion of inclusive academic and social atmospheres for 3500+ students.
+\end{tightemize}
+\sectionsep
+\vspace{1}
+\runsubsection{Public Relations Head}
+\descript{| NSS }
 
-\end{rSection}
+\location{2023 – 2024 | NIT Jamshedpur}
 
-\end{document}
+\begin{tightemize} 
+\item Led the Public Relations Team at NSS, NIT Jamshedpur, driving community
+involvement and orchestrating 5+ major impactful social events alongside 50+
+smaller events.
+\end{tightemize}
+\sectionsep
+\end{minipage} 
+\end{document}  \documentclass[]{article}
